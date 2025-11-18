@@ -11,6 +11,13 @@
 
   <title>Grad School HTML5 Template</title>
 
+  <!-- Bootstrap + jQuery + Owl Carousel CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -28,17 +35,20 @@ TemplateMo 557 Grad School
 https://templatemo.com/tm-557-grad-school
 
 -->
+
+  <style>
+    .courses .item {
+      cursor: pointer;
+    }
+  </style>
 </head>
 
 <body>
 
-<!-- Floating WhatsApp Icon -->
-<a href="https://wa.me/+919131029230" 
-   class="whatsapp-float" 
-   target="_blank" 
-   aria-label="Chat on WhatsApp">
-  <i class="fa fa-whatsapp"></i>
-</a>
+  <!-- Floating WhatsApp Icon -->
+  <a href="https://wa.me/+919131029230" class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+    <i class="fa fa-whatsapp"></i>
+  </a>
   <!--header-->
   <header class="main-header clearfix" role="header">
     <div class="logo">
@@ -68,7 +78,7 @@ https://templatemo.com/tm-557-grad-school
 
     <div class="video-overlay header-text">
       <div class="caption">
-        <h6>TejasIQ Academy</h6>
+        <h6>Tejas IQ Academy</h6>
         <h2><em>Your</em> Classroom</h2>
         <div class="main-button">
           <div class="scroll-to-section"><a href="#section2">Discover more</a></div>
@@ -89,7 +99,7 @@ https://templatemo.com/tm-557-grad-school
                 <h4><i class="fa fa-pencil"></i>All Courses</h4>
               </div>
               <div class="content-hide">
-                <p>From Class I to B.Tech — TejasIQ Academy covers Science, Maths, and Chemistry at every level, guided
+                <p>From Class I to B.Tech — Tejas IQ Academy covers Science, Maths, and Chemistry at every level, guided
                   by Ph.D. qualified faculties.</p>
                 <p class="hidden-sm">Special focus on conceptual clarity and real-life applications.</p>
                 <div class="scroll-to-section"><a href="#section2">More Info.</a></div>
@@ -139,7 +149,7 @@ https://templatemo.com/tm-557-grad-school
       <div class="row">
         <div class="col-md-12">
           <div class="section-heading">
-            <h2>Why Choose TejasIQ Academy?</h2>
+            <h2>Why Choose Tejas IQ Academy?</h2>
             <p>Empowering students with knowledge, confidence, and real results — both online and offline.</p>
           </div>
         </div>
@@ -176,7 +186,7 @@ https://templatemo.com/tm-557-grad-school
                   </div>
                   <div class="col-md-6">
                     <h4>Practical Learning Approach</h4>
-                    <p>At TejasIQ Academy, we believe in learning by doing. Regular lab demonstrations, practice
+                    <p>At Tejas IQ Academy, we believe in learning by doing. Regular lab demonstrations, practice
                       worksheets, and weekly tests make every topic crystal clear.</p>
                     <p>Whether you’re preparing for boards, university exams, or IELTS, our structured and hands-on
                       approach ensures complete concept mastery.</p>
@@ -192,7 +202,7 @@ https://templatemo.com/tm-557-grad-school
                   </div>
                   <div class="col-md-6">
                     <h4>100% Proven Results</h4>
-                    <p>With consistent results for over 6 years, TejasIQ Academy has built a reputation for academic
+                    <p>With consistent results for over 6 years, Tejas IQ Academy has built a reputation for academic
                       excellence and student success stories across school and college levels.</p>
                     <p>We help every student achieve their full potential through continuous evaluation, motivation, and
                       expert mentorship.</p>
@@ -215,15 +225,15 @@ https://templatemo.com/tm-557-grad-school
         <!-- Left Side: About Content -->
         <div class="col-md-7 col-xs-12">
           <div class="content-box">
-            <h2>About <em>TejasIQ Academy</em></h2>
-            <p>TejasIQ Academy is a leading educational institute offering both <strong>offline and online</strong>
+            <h2>About <em>Tejas IQ Academy</em></h2>
+            <p>Tejas IQ Academy is a leading educational institute offering both <strong>offline and online</strong>
               learning experiences. With <strong>Ph.D. qualified faculties</strong>, we provide expert guidance in
               <strong>Science, Maths, and Chemistry</strong> for school, college, and professional students.
             </p>
 
             <p>Our mission is to build a strong academic foundation through practical learning, personalized attention,
               and consistent testing. Whether you’re preparing for board exams, higher studies, or <strong>IELTS &
-                Spoken English</strong>, TejasIQ Academy helps you achieve excellence with confidence.</p>
+                Spoken English</strong>, Tejas IQ Academy helps you achieve excellence with confidence.</p>
 
             <ul class="about-points">
               <li><i class="fa fa-check"></i> Experienced Ph.D. Faculty</li>
@@ -252,7 +262,7 @@ https://templatemo.com/tm-557-grad-school
       <div class="row">
         <div class="col-md-12">
           <div class="section-heading">
-            <h2>Courses Offered at TejasIQ Academy</h2>
+            <h2>Courses Offered at Tejas IQ Academy</h2>
             <p>Choose the right course for your academic success — from school foundations to higher studies and
               professional training.</p>
           </div>
@@ -261,80 +271,56 @@ https://templatemo.com/tm-557-grad-school
         <div class="owl-carousel owl-theme">
 
           <!-- I-VIII -->
-          <div class="item">
+          <div class="item course" data-course="1">
             <img src="assets/images/c1.png" alt="I-VIII All Subjects">
             <div class="down-content">
               <h4>Classes I – VIII (All Subjects)</h4>
-              <p>Strong foundation for young learners with focus on conceptual clarity in all subjects, including
-                Science and Mathematics.</p>
-              <!-- <div class="text-button-free">
-                <a href="#">Join Now <i class="fa fa-angle-double-right"></i></a>
-              </div> -->
+              <p>Strong foundation with conceptual clarity.</p>
             </div>
           </div>
 
           <!-- IX-X -->
-          <div class="item">
+          <div class="item course" data-course="2">
             <img src="assets/images/c2.png" alt="IX-X Science & Maths">
             <div class="down-content">
-              <h4>Classes IX – X (Science & Maths)</h4>
-              <p>Board exam preparation with personalized doubt sessions, regular tests, and practical understanding of
-                core concepts.</p>
-              <!-- <div class="text-button-free">
-                <a href="#">Enroll Now <i class="fa fa-angle-double-right"></i></a>
-              </div> -->
+              <h4>Classes IX – X</h4>
+              <p>Science & Maths with board preparation.</p>
             </div>
           </div>
 
           <!-- XI-XII -->
-          <div class="item">
-            <img src="assets/images/c3.png" alt="XI-XII Chemistry, Physics, Biology, Maths">
+          <div class="item course" data-course="3">
+            <img src="assets/images/c3.png" alt="XI-XII">
             <div class="down-content">
-              <h4>Classes XI – XII (Chemistry, Physics, Biology, Maths)</h4>
-              <p>Expert guidance from Ph.D. qualified faculty to master advanced science subjects and excel in board &
-                entrance exams.</p>
-              <!-- <div class="text-button-free">
-                <a href="#">Get Started <i class="fa fa-angle-double-right"></i></a>
-              </div> -->
+              <h4>Classes XI – XII</h4>
+              <p>Expert guidance for top scores.</p>
             </div>
           </div>
 
           <!-- B.Sc / M.Sc / B.Tech -->
-          <div class="item">
-            <img src="assets/images/c4.png" alt="B.Sc, M.Sc, B.Tech Chemistry">
+          <div class="item course" data-course="4">
+            <img src="assets/images/c4.png" alt="Chemistry">
             <div class="down-content">
               <h4>B.Sc / M.Sc / B.Tech (Chemistry)</h4>
-              <p>Specialized coaching in Organic, Inorganic, and Physical Chemistry for university and competitive exam
-                success.</p>
-              <!-- <div class="text-button-free">
-                <a href="#">Learn More <i class="fa fa-angle-double-right"></i></a>
-              </div> -->
+              <p>Advanced Chemistry coaching.</p>
             </div>
           </div>
 
           <!-- IELTS -->
-          <div class="item">
-            <img src="assets/images/c6.png" alt="IELTS Training">
+          <div class="item course" data-course="5">
+            <img src="assets/images/c6.png" alt="IELTS">
             <div class="down-content">
               <h4>IELTS Preparation</h4>
-              <p>Score high in IELTS with interactive sessions, practice tests, and personalized feedback from
-                experienced trainers.</p>
-              <!-- <div class="text-button-free">
-                <a href="#">Join IELTS <i class="fa fa-angle-double-right"></i></a>
-              </div> -->
+              <p>Score 7+ with our training.</p>
             </div>
           </div>
 
           <!-- Spoken English -->
-          <div class="item">
+          <div class="item course" data-course="6">
             <img src="assets/images/c5.png" alt="Spoken English">
             <div class="down-content">
               <h4>Spoken English</h4>
-              <p>Improve fluency, pronunciation, and confidence with practical sessions designed for students and
-                professionals alike.</p>
-              <!-- <div class="text-button-free">
-                <a href="#">Start Now <i class="fa fa-angle-double-right"></i></a>
-              </div> -->
+              <p>Improve fluency & confidence.</p>
             </div>
           </div>
 
@@ -342,8 +328,6 @@ https://templatemo.com/tm-557-grad-school
       </div>
     </div>
   </section>
-
-
 
   <!-- <section class="section video" data-section="section5">
     <div class="container">
@@ -433,7 +417,7 @@ https://templatemo.com/tm-557-grad-school
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <p><i class="fa fa-copyright"></i> Copyright 2025 by TejasIQ Academy
+          <p><i class="fa fa-copyright"></i> Copyright 2025 by Tejas IQ Academy
 
             | Design & Developed: <a href="https://digimarksky.in" rel="sponsored" target="_parent">Digimark Sky</a><br>
 
@@ -506,6 +490,67 @@ https://templatemo.com/tm-557-grad-school
       checkSection();
     });
   </script>
+  <script>
+    const courseData = {
+      1: {
+        title: "Classes I – VIII (All Subjects)",
+        image: "assets/images/c1.png",
+        text: "Strong foundation for young learners with conceptual clarity in all subjects including Maths, Science, English & more.",
+      },
+      2: {
+        title: "Classes IX – X (Science & Maths)",
+        image: "assets/images/c2.png",
+        text: "Board exam preparation with personalized doubt sessions, regular tests, and strong conceptual learning.",
+      },
+      3: {
+        title: "Classes XI – XII (Science)",
+        image: "assets/images/c3.png",
+        text: "Expert guidance from Ph.D. faculty in Chemistry, Physics, Biology & Maths for boards and entrance exams.",
+      },
+      4: {
+        title: "B.Sc / M.Sc / B.Tech (Chemistry)",
+        image: "assets/images/c4.png",
+        text: "Specialized coaching in Organic, Inorganic & Physical Chemistry for university exams & competitive success.",
+      },
+      5: {
+        title: "IELTS Preparation",
+        image: "assets/images/c6.png",
+        text: "High-scoring IELTS coaching with interactive speaking sessions, mock tests & personalized feedback.",
+      },
+      6: {
+        title: "Spoken English",
+        image: "assets/images/c5.png",
+        text: "Improve fluency, pronunciation & communication skills with real-life speaking practice.",
+      }
+    };
+
+    $(".course").click(function () {
+      let id = $(this).data("course");
+      let data = courseData[id];
+
+      Swal.fire({
+        title: data.title,
+        text: data.text,
+        imageUrl: data.image,
+        imageWidth: 350,
+        imageHeight: 230,
+        imageAlt: data.title,
+        confirmButtonText: "Close",
+        backdrop: true,
+        showCloseButton: true,
+        customClass: {
+          popup: "animated fadeInDown faster",
+        }
+      });
+    });
+  </script>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </body>
 
 </html>

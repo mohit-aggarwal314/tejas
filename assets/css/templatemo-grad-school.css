@@ -1602,8 +1602,8 @@ footer p a:hover {
 
 .logo-img {
   margin-top: 10px;
-  width: 60px;   /* Adjust size as needed */
-  height: 60px;  /* Makes it square */
+  width: 70px;   /* Adjust size as needed */
+  height: 70px;  /* Makes it square */
   object-fit: cover;  /* Keeps image proportions without distortion */
   border-radius: 8px; /* Optional: slightly rounded corners */
 }
